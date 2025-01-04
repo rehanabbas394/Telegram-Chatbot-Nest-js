@@ -16,7 +16,7 @@ import { TelegramService } from './telegram/telegram.service';
       database: 'chatbot',
       password:"",
       synchronize:true, 
-      entities:[User]
+      entities:[User] 
     }),
     TelegramModule, 
   ],
