@@ -18,7 +18,7 @@ import { TelegramService } from './telegram/telegram.service';
       synchronize:true, 
       entities:[User]
     }),
-    TelegramModule,
+    TelegramModule, 
   ],
   controllers: [],   
   providers: [],
