@@ -20,7 +20,7 @@ import { TelegramService } from './telegram/telegram.service';
     }),
     TelegramModule,
   ],
-  controllers: [],
+  controllers: [],   
   providers: [],
 })
 export class AppModule {}
