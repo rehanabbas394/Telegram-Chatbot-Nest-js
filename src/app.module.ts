@@ -10,7 +10,7 @@ import { TelegramService } from './telegram/telegram.service';
     ConfigModule.forRoot({isGlobal:true,envFilePath:".env"}),
     TypeOrmModule.forRoot({
       type:'mysql',
-      host: 'localhost',
+      host: 'localhost', 
       port: 3306,
       username: 'root',
       database: 'chatbot',
