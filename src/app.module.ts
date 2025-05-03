@@ -7,7 +7,7 @@ import { TelegramService } from './telegram/telegram.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({isGlobal:true,envFilePath:".env"}),
+    ConfigModule.forRoot({isGlobal:true,envFilePath:".env"}), 
     TypeOrmModule.forRoot({
       type:'mysql',
       host: 'localhost', 
